@@ -31,7 +31,7 @@ resource "aws_security_group" "tarea_web" {
 }
 
 resource "aws_instance" "tareaTerraformContainer" {
-    ami = "ami" # cambiar valor de ami
+    ami = "ami-043cbf1cf918dd74f" # cambiar valor de ami
     instance_type = "t2.micro"
     key_name = "vockey"
 
